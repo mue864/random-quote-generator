@@ -1,0 +1,62 @@
+/* outfit font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+body {
+    background-color: #111629;
+    font-family: "Outfit", sans-serif;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+.card-contents {
+    background-color: #20293a;
+    border-radius: 0.5rem;
+    background-image: url('./assets/bg-image-random-quote.svg');
+    background-size: cover;
+    margin-right: -6rem;
+    height: 150px;
+    
+}
+
+.quote-headings {
+    display: flex;
+    gap: 0.5rem;
+    padding-top: 0.5rem;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    color: #97A3B6;
+    margin-bottom: 0;
+}
+
+.quote-pill {
+    border: #514ad8 1px solid;
+    border-radius: 1.5rem;
+    padding: 0.2rem;
+    font-size: 0.625rem;
+    color: #514ad8;
+}
+
+.quotes {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: #97A3B6;
+    text-align: center;
+}
