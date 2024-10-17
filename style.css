@@ -17,7 +17,7 @@ section {
 .card {
     display: flex;
     align-items: center;
-    width: 300px;
+    
 }
 
 .card-contents {
@@ -25,8 +25,9 @@ section {
     border-radius: 0.5rem;
     background-image: url('./assets/bg-image-random-quote.svg');
     background-size: cover;
-    margin-right: -6rem;
+    margin-right: -11rem;
     height: 150px;
+    width: 400px;
     
 }
 
@@ -59,4 +60,34 @@ section {
 p {
     color: #97A3B6;
     text-align: center;
+    width: 19rem;
 }
+
+.controls {
+    display: flex;
+    position: relative;
+    top: 7rem;
+    right: 3.5rem;
+}
+
+.controls{
+    border: #20293A 1px solid;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+}
+
+.link{
+    padding-top: 0.3rem;
+    padding-left: 0.3rem;
+    border-left: #20293A 1px solid;
+}
+
+.re-group {
+    padding-top: 0.3rem;
+    padding-right: 0.3rem;
+}
+
+.controls {
+    border-radius: 0.3rem;
+}
+
