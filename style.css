@@ -17,7 +17,6 @@ section {
 .card {
     display: flex;
     align-items: center;
-    
 }
 
 .card-contents {
@@ -25,9 +24,10 @@ section {
     border-radius: 0.5rem;
     background-image: url('./assets/bg-image-random-quote.svg');
     background-size: cover;
-    margin-right: -11rem;
-    height: 150px;
+    margin-right: -6rem;
+    min-height: 150px;
     width: 400px;
+    padding: 1rem;
     
 }
 
@@ -60,14 +60,16 @@ section {
 p {
     color: #97A3B6;
     text-align: center;
-    width: 19rem;
+    width: 100%;
+    word-wrap: break-word;
 }
 
 .controls {
     display: flex;
     position: relative;
     top: 7rem;
-    right: 3.5rem;
+    right: 9.5rem;
+    margin-top: 2.5rem;
 }
 
 .controls{
@@ -90,4 +92,60 @@ p {
 .controls {
     border-radius: 0.3rem;
 }
+
+.re-group:active, .link:active {
+    transition: all 0.3s ease-out;
+    transform: scale(1.1);
+}
+
+/* Media queries from large to small */
+
+/* Devices up to 1024px */
+@media screen and (max-width: 1024px) {
+    .card-contents {
+        margin-right: -8rem;
+    }
+
+    .controls {
+        right: 7rem;
+    }
+}
+
+/* Devices up to 768px */
+@media screen and (max-width: 768px) {
+    .card-contents {
+        margin-right: -7rem;
+    }
+
+    .controls {
+        right: 8.5rem;
+    }
+}
+
+/* Devices up to 500px */
+@media screen and (max-width: 500px) {
+    .card-contents {
+        width: 350px;
+        margin-right: -5rem;
+    }
+
+    .controls {
+        margin-top: 5rem;
+        right: 9rem;
+    }
+}
+
+/* Devices up to 425px */
+@media screen and (max-width: 425px) {
+    .card-contents {
+        width: 300px;
+        margin-right: -4rem;
+    }
+
+    .controls {
+        right: 8.5rem;
+        margin-top: 3rem;
+    }
+}
+
 
