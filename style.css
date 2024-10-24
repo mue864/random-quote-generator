@@ -3,7 +3,8 @@
 
 
 body {
-    background-color: #111629;
+    /* background-color: #111629; */
+    background-color: rgb(189, 209, 197);
     font-family: "Outfit", sans-serif;
 }
 
@@ -28,7 +29,7 @@ section {
     min-height: 150px;
     width: 400px;
     padding: 1rem;
-    
+    box-shadow: 0 0px 10px 2px rgba(0,0,0, 0.4);
 }
 
 .quote-headings {
@@ -82,11 +83,24 @@ p {
     padding-top: 0.3rem;
     padding-left: 0.3rem;
     border-left: #20293A 1px solid;
+    transition: all 300ms ease;
+}
+
+.link:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .re-group {
     padding-top: 0.3rem;
     padding-right: 0.3rem;
+    transition: all 300ms ease;
+    
+}
+
+.re-group:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .controls {
@@ -96,6 +110,17 @@ p {
 .re-group:active, .link:active {
     transition: all 0.3s ease-out;
     transform: scale(1.1);
+}
+
+.btn {
+    position: relative;
+    top: 9rem;
+    right: 11.5rem;
+    margin-top: 2.5rem;
+    padding: .5rem;
+    border-radius: .35rem;
+    border: none;
+    
 }
 
 /* Media queries from large to small */
