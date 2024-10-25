@@ -18,6 +18,8 @@ section {
 .card {
     display: flex;
     align-items: center;
+    justify-content: center;
+    height: 85vh;
 }
 
 .card-contents {
@@ -134,6 +136,7 @@ p {
 }
 
 .btn-shuffle:active {
+    background-color: red;
     transform: scale(1.1);
 }
 
@@ -147,7 +150,7 @@ p {
 
 .btn-clipboard:active {
     transform: scale(1.1);
-    
+
 }
 
 /* Media queries from large to small */
