@@ -120,6 +120,33 @@ p {
     padding: .5rem;
     border-radius: .35rem;
     border: none;
+}
+
+.btn-shuffle {
+    background-color: #20293A;
+    color: white;
+    transition: all 300ms ease;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.btn-shuffle:hover {
+    cursor: pointer;
+}
+
+.btn-shuffle:active {
+    transform: scale(1.1);
+}
+
+
+.btn-clipboard {
+    background-color: #514ad8;
+    color: white;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    transition: all 300ms ease;
+}
+
+.btn-clipboard:active {
+    transform: scale(1.1);
     
 }
 
