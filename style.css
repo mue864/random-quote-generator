@@ -93,27 +93,6 @@ p {
     transform: scale(1.1);
 }
 
-.re-group {
-    padding-top: 0.3rem;
-    padding-right: 0.3rem;
-    transition: all 300ms ease;
-    
-}
-
-.re-group:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-}
-
-.controls {
-    border-radius: 0.3rem;
-}
-
-.re-group:active, .link:active {
-    transition: all 0.3s ease-out;
-    transform: scale(1.1);
-}
-
 .btn {
     position: relative;
     top: 9rem;
